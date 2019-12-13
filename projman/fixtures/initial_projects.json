@@ -1,0 +1,24 @@
+[
+  {
+    "model": "projman.project",
+    "pk": 1,
+    "fields": {
+      "name": "Test",
+      "description": "most important project ever",
+      "start_date": "2019-12-13",
+      "end_date": "2019-12-13",
+      "finished": true
+    }
+  },
+  {
+    "model": "projman.project",
+    "pk": 2,
+    "fields": {
+      "name": "Test2",
+      "description": "not so important",
+      "start_date": "2019-12-13",
+      "end_date": "2019-12-13",
+      "finished": true
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "model": "projman.department",
+    "pk": 1,
+    "fields": {
+      "name": "IT",
+      "description": "Information Technology"
+    }
+  },
+  {
+    "model": "projman.department",
+    "pk": 2,
+    "fields": {
+      "name": "HR",
+      "description": "Human Resources"
+    }
+  }
+]

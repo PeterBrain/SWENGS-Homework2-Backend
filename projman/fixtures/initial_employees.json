@@ -1,0 +1,22 @@
+[
+  {
+    "model": "projman.employee",
+    "pk": 1,
+    "fields": {
+      "first_name": "Max",
+      "last_name": "Mustermann",
+      "dob": "2019-12-13",
+      "department": 1
+    }
+  },
+  {
+    "model": "projman.employee",
+    "pk": 2,
+    "fields": {
+      "first_name": "Jon",
+      "last_name": "Doe",
+      "dob": "2019-12-13",
+      "department": 2
+    }
+  }
+]
