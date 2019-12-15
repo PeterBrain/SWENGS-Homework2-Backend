@@ -26,6 +26,7 @@ class Project(models.Model):
     description = models.TextField(null=True, blank=True)
     start_date = models.DateField(null=False)
     end_date = models.DateField(null=False)
+    progress = models.PositiveSmallIntegerField(null=True)
     finished = models.BooleanField()
 
     def __str__(self):

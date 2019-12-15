@@ -2,7 +2,7 @@ from rest_framework import serializers
 from projman import models
 
 
-class DepartmentOptionSerializer(serializers.ModelSerializer):
+class DepartmentFormSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Department
         fields = ['id', 'name', 'description']
@@ -22,10 +22,10 @@ class EmployeeListSerializer(serializers.ModelSerializer):
 class EmployeeFormSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Employee
-        fields = '__all__'
+        fields = ['id', 'first_name', 'last_name', 'dob', 'department'] #'__all__'
 
 
-class ProjectOptionSerializer(serializers.ModelSerializer):
+class ProjectFormSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Project
-        fields = ['name', 'description', 'start_date', 'end_date', 'finished']
+        fields = ['id', 'name', 'description', 'start_date', 'end_date', 'progress', 'finished']

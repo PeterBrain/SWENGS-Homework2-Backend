@@ -14,5 +14,53 @@
       "name": "HR",
       "description": "Human Resources"
     }
+  },
+  {
+    "model": "projman.department",
+    "pk": 3,
+    "fields": {
+      "name": "PD",
+      "description": "Production"
+    }
+  },
+  {
+    "model": "projman.department",
+    "pk": 4,
+    "fields": {
+      "name": "RD",
+      "description": "Research & Development"
+    }
+  },
+  {
+    "model": "projman.department",
+    "pk": 5,
+    "fields": {
+      "name": "MK",
+      "description": "Marketing"
+    }
+  },
+  {
+    "model": "projman.department",
+    "pk": 6,
+    "fields": {
+      "name": "PR",
+      "description": "Public Relations"
+    }
+  },
+  {
+    "model": "projman.department",
+    "pk": 7,
+    "fields": {
+      "name": "PU",
+      "description": "Purchasing"
+    }
+  },
+  {
+    "model": "projman.department",
+    "pk": 8,
+    "fields": {
+      "name": "CU",
+      "description": "Customer Service"
+    }
   }
 ]

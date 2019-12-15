@@ -7,6 +7,7 @@
       "description": "most important project ever",
       "start_date": "2019-12-13",
       "end_date": "2019-12-13",
+      "progress": 27,
       "finished": true
     }
   },
@@ -18,6 +19,55 @@
       "description": "not so important",
       "start_date": "2019-12-13",
       "end_date": "2019-12-13",
+      "progress": 62,
+      "finished": true
+    }
+  },
+  {
+    "model": "projman.project",
+    "pk": 3,
+    "fields": {
+      "name": "Test2",
+      "description": "not so important",
+      "start_date": "2019-12-13",
+      "end_date": "2019-12-13",
+      "progress": 62,
+      "finished": true
+    }
+  },
+  {
+    "model": "projman.project",
+    "pk": 4,
+    "fields": {
+      "name": "Test2",
+      "description": "not so important",
+      "start_date": "2019-12-13",
+      "end_date": "2019-12-13",
+      "progress": 62,
+      "finished": true
+    }
+  },
+  {
+    "model": "projman.project",
+    "pk": 5,
+    "fields": {
+      "name": "Test2",
+      "description": "not so important",
+      "start_date": "2019-12-13",
+      "end_date": "2019-12-13",
+      "progress": 62,
+      "finished": true
+    }
+  },
+  {
+    "model": "projman.project",
+    "pk": 6,
+    "fields": {
+      "name": "Test2",
+      "description": "not so important",
+      "start_date": "2019-12-13",
+      "end_date": "2019-12-13",
+      "progress": 62,
       "finished": true
     }
   }
