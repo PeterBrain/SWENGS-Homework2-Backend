@@ -6,7 +6,7 @@ from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 from projman.models import *
 from projman.serializers import DepartmentFormSerializer, EmployeeListSerializer, EmployeeFormSerializer, \
-    ProjectFormSerializer
+    ProjectFormSerializer, EmployeeChartSerializer
 
 
 @swagger_auto_schema(method='GET', responses={200: DepartmentFormSerializer(many=True)})
@@ -76,6 +76,14 @@ def department_delete(request, pk):
 def employees_list(request):
     employees = Employee.objects.all()
     serializer = EmployeeListSerializer(employees, many=True)
+    return Response(serializer.data)
+
+
+@swagger_auto_schema(method='GET', responses={200: EmployeeChartSerializer(many=True)})
+@api_view(['GET'])
+def employees_chart(request):
+    employees = Employee.objects.all()
+    serializer = EmployeeChartSerializer(employees, many=True)
     return Response(serializer.data)
 
 

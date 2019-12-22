@@ -19,6 +19,17 @@ class EmployeeListSerializer(serializers.ModelSerializer):
         return obj.department.name + ' - ' + obj.department.description if obj.department else ''
 
 
+class EmployeeChartSerializer(serializers.ModelSerializer):
+    department = serializers.SerializerMethodField()
+
+    class Meta:
+        model = models.Employee
+        fields = ['department']
+
+    def get_department(self, obj):
+        return obj.department.name + ' - ' + obj.department.description if obj.department else ''
+
+
 class EmployeeFormSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Employee
