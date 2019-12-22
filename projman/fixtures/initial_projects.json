@@ -3,7 +3,7 @@
     "model": "projman.project",
     "pk": 1,
     "fields": {
-      "name": "Test",
+      "name": "Test1",
       "description": "most important project ever",
       "start_date": "2019-12-13",
       "end_date": "2019-12-13",
@@ -19,7 +19,7 @@
       "description": "not so important",
       "start_date": "2019-12-13",
       "end_date": "2019-12-13",
-      "progress": 62,
+      "progress": 79,
       "finished": true
     }
   },
@@ -27,11 +27,11 @@
     "model": "projman.project",
     "pk": 3,
     "fields": {
-      "name": "Test2",
+      "name": "Test3",
       "description": "not so important",
       "start_date": "2019-12-13",
       "end_date": "2019-12-13",
-      "progress": 62,
+      "progress": 44,
       "finished": true
     }
   },
@@ -39,11 +39,11 @@
     "model": "projman.project",
     "pk": 4,
     "fields": {
-      "name": "Test2",
+      "name": "Test4",
       "description": "not so important",
       "start_date": "2019-12-13",
       "end_date": "2019-12-13",
-      "progress": 62,
+      "progress": 32,
       "finished": true
     }
   },
@@ -51,11 +51,11 @@
     "model": "projman.project",
     "pk": 5,
     "fields": {
-      "name": "Test2",
+      "name": "Test5",
       "description": "not so important",
       "start_date": "2019-12-13",
       "end_date": "2019-12-13",
-      "progress": 62,
+      "progress": 89,
       "finished": true
     }
   },
@@ -63,11 +63,11 @@
     "model": "projman.project",
     "pk": 6,
     "fields": {
-      "name": "Test2",
+      "name": "Test6",
       "description": "not so important",
       "start_date": "2019-12-13",
       "end_date": "2019-12-13",
-      "progress": 62,
+      "progress": 12,
       "finished": true
     }
   }

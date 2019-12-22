@@ -26,7 +26,7 @@
       "first_name": "Jon",
       "last_name": "Doe",
       "dob": "2019-12-13",
-      "department": 2
+      "department": 8
     }
   },
   {
@@ -36,7 +36,7 @@
       "first_name": "Jon",
       "last_name": "Doe",
       "dob": "2019-12-13",
-      "department": 2
+      "department": 4
     }
   },
   {
@@ -46,7 +46,7 @@
       "first_name": "Jon",
       "last_name": "Doe",
       "dob": "2019-12-13",
-      "department": 2
+      "department": 6
     }
   },
   {
@@ -66,7 +66,7 @@
       "first_name": "Jon",
       "last_name": "Doe",
       "dob": "2019-12-13",
-      "department": 2
+      "department": 5
     }
   },
   {
@@ -76,7 +76,7 @@
       "first_name": "Jon",
       "last_name": "Doe",
       "dob": "2019-12-13",
-      "department": 2
+      "department": 1
     }
   },
   {
@@ -96,7 +96,7 @@
       "first_name": "Jon",
       "last_name": "Doe",
       "dob": "2019-12-13",
-      "department": 2
+      "department": 7
     }
   },
   {
@@ -106,7 +106,7 @@
       "first_name": "Jon",
       "last_name": "Doe",
       "dob": "2019-12-13",
-      "department": 2
+      "department": 3
     }
   }
 ]
